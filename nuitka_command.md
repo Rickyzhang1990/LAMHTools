@@ -1,0 +1,1 @@
+python -m nuitka  --onefile --enable-plugin=tk-inter  --include-module=polars --include-module=tkinter --include-module=xlsx2csv  --include-module=xlsxwriter  --windows-console-mode=disable     ./main.py
